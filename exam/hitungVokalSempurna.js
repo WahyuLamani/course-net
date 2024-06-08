@@ -1,6 +1,6 @@
 const input = process.argv[2] ?? ''
 if (input.length > 0) {
-    console.log("\nKalimat: "+input+"\n \nJumlah Huruf Vokal\n------------------")
+    console.log(`\nKalimat: ${input}\n \nJumlah Huruf Vokal\n------------------`)
     const hasil =  hitungVokal(input)
     let countHasil = 0
         for (const prop in hasil) {
